@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 const webpack = require("../lib/webpack.js");
 const config = require("./webpack.config");
 
