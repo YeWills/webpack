@@ -176,7 +176,7 @@
     "cover:merge": "yarn mkdirp .nyc_output && nyc merge .nyc_output coverage/coverage-nyc.json && rimraf .nyc_output",
     "cover:report": "nyc report -t coverage"
   },
-  "lint-staged": {
+  "lint-staged111": {
     "*.js|{lib,setup,bin,hot,tooling,schemas}/**/*.js|test/*.js|{test,examples}/**/webpack.config.js}": [
       "eslint --cache"
     ],
