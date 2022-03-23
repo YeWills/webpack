@@ -3,6 +3,7 @@ module.exports = {
 	useTabs: true,
 	tabWidth: 2,
 	trailingComma: "none",
+	endOfLine: "auto",
 	arrowParens: "avoid",
 	overrides: [
 		{
