@@ -22,3 +22,4 @@ test/*Cases/**/*.js
 examples/**/*.js
 !examples/*/webpack.config.js
 
+dist

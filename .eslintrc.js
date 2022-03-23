@@ -3,7 +3,7 @@ module.exports = {
 	plugins: ["prettier", "node", "jest", "jsdoc"],
 	extends: [
 		"eslint:recommended",
-		"plugin:node/recommended",
+		// "plugin:node/recommended",
 		"plugin:prettier/recommended"
 	],
 	env: {
@@ -11,7 +11,7 @@ module.exports = {
 		es6: true
 	},
 	parserOptions: {
-		ecmaVersion: 2017
+		ecmaVersion: 2018
 	},
 	rules: {
 		"prettier/prettier": "error",
