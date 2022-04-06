@@ -1,0 +1,441 @@
+
+> webpack-modify-demo@1.0.0 build
+> webpack
+
+addEntry   【类型：SyncHook 入参：entry,name   
+buildModule   【类型：SyncHook 入参：module   
+normalModuleLoader   【类型：SyncHook 入参：loaderContext,module   
+succeedModule   【类型：SyncHook 入参：module   
+buildModule   【类型：SyncHook 入参：module   
+normalModuleLoader   【类型：SyncHook 入参：loaderContext,module   
+buildModule   【类型：SyncHook 入参：module   
+normalModuleLoader   【类型：SyncHook 入参：loaderContext,module   
+succeedModule   【类型：SyncHook 入参：module   
+succeedModule   【类型：SyncHook 入参：module   
+succeedEntry   【类型：SyncHook 入参：entry,name,module   
+finishModules   【类型：AsyncSeriesHook 入参：modules   
+seal   【类型：SyncHook 入参：   
+optimizeDependenciesBasic   【类型：SyncBailHook 入参：modules   
+optimizeDependencies   【类型：SyncBailHook 入参：modules   
+optimizeDependenciesAdvanced   【类型：SyncBailHook 入参：modules   
+afterOptimizeDependencies   【类型：SyncHook 入参：modules   
+beforeChunks   【类型：SyncHook 入参：   
+dependencyReference   【类型：SyncWaterfallHook 入参：dependencyReference,dependency,module   
+dependencyReference   【类型：SyncWaterfallHook 入参：dependencyReference,dependency,module   
+dependencyReference   【类型：SyncWaterfallHook 入参：dependencyReference,dependency,module   
+dependencyReference   【类型：SyncWaterfallHook 入参：dependencyReference,dependency,module   
+log   【类型：SyncBailHook 入参：origin,logEntry   
+log   【类型：SyncBailHook 入参：origin,logEntry   
+afterChunks   【类型：SyncHook 入参：chunks   
+optimize   【类型：SyncHook 入参：   
+optimizeModulesBasic   【类型：SyncBailHook 入参：modules   
+optimizeModules   【类型：SyncBailHook 入参：modules   
+optimizeModulesAdvanced   【类型：SyncBailHook 入参：modules   
+afterOptimizeModules   【类型：SyncHook 入参：modules   
+optimizeChunksBasic   【类型：SyncBailHook 入参：chunks,chunkGroups   
+optimizeChunks   【类型：SyncBailHook 入参：chunks,chunkGroups   
+optimizeChunksAdvanced   【类型：SyncBailHook 入参：chunks,chunkGroups   
+afterOptimizeChunks   【类型：SyncHook 入参：chunks,chunkGroups   
+optimizeTree   【类型：AsyncSeriesHook 入参：chunks,modules   
+afterOptimizeTree   【类型：SyncHook 入参：chunks,modules   
+optimizeChunkModulesBasic   【类型：SyncBailHook 入参：chunks,modules   
+optimizeChunkModules   【类型：SyncBailHook 入参：chunks,modules   
+optimizeChunkModulesAdvanced   【类型：SyncBailHook 入参：chunks,modules   
+afterOptimizeChunkModules   【类型：SyncHook 入参：chunks,modules   
+shouldRecord   【类型：SyncBailHook 入参：   
+reviveModules   【类型：SyncHook 入参：modules,records   
+optimizeModuleOrder   【类型：SyncHook 入参：modules   
+advancedOptimizeModuleOrder   【类型：SyncHook 入参：modules   
+beforeModuleIds   【类型：SyncHook 入参：modules   
+moduleIds   【类型：SyncHook 入参：modules   
+optimizeModuleIds   【类型：SyncHook 入参：modules   
+afterOptimizeModuleIds   【类型：SyncHook 入参：modules   
+reviveChunks   【类型：SyncHook 入参：chunks,records   
+optimizeChunkOrder   【类型：SyncHook 入参：chunks   
+beforeChunkIds   【类型：SyncHook 入参：chunks   
+optimizeChunkIds   【类型：SyncHook 入参：chunks   
+afterOptimizeChunkIds   【类型：SyncHook 入参：chunks   
+recordModules   【类型：SyncHook 入参：modules,records   
+recordChunks   【类型：SyncHook 入参：chunks,records   
+beforeHash   【类型：SyncHook 入参：   
+chunkHash   【类型：SyncHook 入参：chunk,chunkHash   
+contentHash   【类型：SyncHook 入参：chunk   
+afterHash   【类型：SyncHook 入参：   
+recordHash   【类型：SyncHook 入参：records   
+beforeModuleAssets   【类型：SyncHook 入参：   
+shouldGenerateChunkAssets   【类型：SyncBailHook 入参：   
+beforeChunkAssets   【类型：SyncHook 入参：   
+chunkAsset   【类型：SyncHook 入参：chunk,filename   
+additionalChunkAssets   【类型：SyncHook 入参：chunks   
+record   【类型：SyncHook 入参：compilation,records   
+additionalAssets   【类型：AsyncSeriesHook 入参：   
+optimizeChunkAssets   【类型：AsyncSeriesHook 入参：chunks   
+afterOptimizeChunkAssets   【类型：SyncHook 入参：chunks   
+optimizeAssets   【类型：AsyncSeriesHook 入参：assets   
+afterOptimizeAssets   【类型：SyncHook 入参：assets   
+needAdditionalSeal   【类型：SyncBailHook 入参：   
+afterSeal   【类型：AsyncSeriesHook 入参：   
+needAdditionalPass   【类型：SyncBailHook 入参：   
+[
+  NormalModule {
+    dependencies: [
+      [HarmonyCompatibilityDependency],
+      [HarmonyInitDependency],
+      [HarmonyExportHeaderDependency],
+      [HarmonyExportExpressionDependency]
+      HarmonyExportSpecifierDependency
+    ],
+    blocks: [],
+    variables: [],
+    type: 'javascript/auto',
+    context: 'D:\\workplace\\webpack\\webpack-travel\\page',
+    debugId: 1002,
+    hash: 'dcb2224c4947ca3135098490907e1e6c',
+    renderedHash: 'dcb2224c4947ca313509',
+    resolveOptions: {},
+    factoryMeta: {},
+    warnings: [],
+    errors: [],
+    buildMeta: { exportsType: 'namespace', providedExports: [Array] },
+    buildInfo: {
+      cacheable: true,
+      fileDependencies: [Set],
+      contextDependencies: Set(0) {},
+      assets: undefined,
+      assetsInfo: undefined,
+      strict: true,
+      exportsArgument: '__webpack_exports__',
+      temporaryProvidedExports: false
+    },
+    reasons: [ [ModuleReason], [ModuleReason] ],
+    _chunks: SortableSet(1) [Set] {
+      [Chunk],
+      _sortFn: [Function: sortById],
+      _lastActiveSortFn: null,
+      _cache: undefined,
+      _cacheOrderIndependent: undefined
+    },
+    id: './page/srcpage.js',
+    index: 2,
+    index2: 1,
+    depth: 1,
+    issuer: NormalModule {
+      dependencies: [Array],
+      blocks: [],
+      variables: [],
+      type: 'javascript/auto',
+      context: 'D:\\workplace\\webpack\\webpack-travel\\src',
+      debugId: 1000,
+      hash: 'e3ba9754a36ad626f6eb7cd89387792b',
+      renderedHash: 'e3ba9754a36ad626f6eb',
+      resolveOptions: {},
+      factoryMeta: {},
+      warnings: [],
+      errors: [],
+      buildMeta: [Object],
+      buildInfo: [Object],
+      reasons: [Array],
+      _chunks: [SortableSet [Set]],
+      id: './src/index.js',
+      index: 0,
+      index2: 2,
+      depth: 0,
+      issuer: null,
+      profile: undefined,
+      prefetched: false,
+      built: true,
+      used: null,
+      usedExports: null,
+      optimizationBailout: [],
+      _rewriteChunkInReasons: undefined,
+      useSourceMap: false,
+      _source: [OriginalSource],
+      request: 'D:\\workplace\\webpack\\webpack-travel\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+      userRequest: 'D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+      rawRequest: './src/index.js',
+      binary: false,
+      parser: [Parser],
+      generator: JavascriptGenerator {},
+      resource: 'D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+      matchResource: undefined,
+      loaders: [Array],
+      error: null,
+      _sourceSize: null,
+      _buildHash: 'c12ba7dc3b42a635b93dbc78d3c64190',
+      buildTimestamp: 1649211271882,
+      _cachedSources: [Map],
+      lineToLine: false,
+      _lastSuccessfulBuildMeta: [Object],
+      _ast: null
+    },
+    profile: undefined,
+    prefetched: false,
+    built: true,
+    used: null,
+    usedExports: null,
+    optimizationBailout: [],
+    _rewriteChunkInReasons: undefined,
+    useSourceMap: false,
+    _source: OriginalSource {
+      _value: 'export default (function (params) {\n' +
+        "  console.log('i am srcpage file->>>>>>>>>>>>>>>', params);\n" +
+        '});',
+      _name: 'D:\\workplace\\webpack\\webpack-travel\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\workplace\\webpack\\webpack-travel\\page\\srcpage.js'
+    },
+    request: 'D:\\workplace\\webpack\\webpack-travel\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\workplace\\webpack\\webpack-travel\\page\\srcpage.js',
+    userRequest: 'D:\\workplace\\webpack\\webpack-travel\\page\\srcpage.js',
+    rawRequest: '../page/srcpage',
+    binary: false,
+    parser: Parser {
+      _pluginCompat: [SyncBailHook],
+      hooks: [Object],
+      options: {},
+      sourceType: 'auto',
+      scope: undefined,
+      state: undefined,
+      comments: undefined
+    },
+    generator: JavascriptGenerator {},
+    resource: 'D:\\workplace\\webpack\\webpack-travel\\page\\srcpage.js',
+    matchResource: undefined,
+    loaders: [ [Object] ],
+    error: null,
+    _sourceSize: null,
+    _buildHash: 'd1879504d9324824ba2efca1e76bb7de',
+    buildTimestamp: 1649211272541,
+    _cachedSources: Map(1) { 'javascript' => [Object] },
+    lineToLine: false,
+    _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [Array] },
+    _ast: null
+  },
+  NormalModule {
+    dependencies: [
+      [HarmonyCompatibilityDependency],
+      [HarmonyInitDependency],
+      [ConstDependency],
+      [HarmonyImportSideEffectDependency],
+      [ConstDependency],
+      [HarmonyImportSideEffectDependency],
+      [HarmonyImportSpecifierDependency],
+      [HarmonyImportSpecifierDependency]
+    ],
+    blocks: [],
+    variables: [],
+    type: 'javascript/auto',
+    context: 'D:\\workplace\\webpack\\webpack-travel\\src',
+    debugId: 1000,
+    hash: 'e3ba9754a36ad626f6eb7cd89387792b',
+    renderedHash: 'e3ba9754a36ad626f6eb',
+    resolveOptions: {},
+    factoryMeta: {},
+    warnings: [],
+    errors: [],
+    buildMeta: { exportsType: 'namespace', providedExports: [] },
+    buildInfo: {
+      cacheable: true,
+      fileDependencies: [Set],
+      contextDependencies: Set(0) {},
+      assets: undefined,
+      assetsInfo: undefined,
+      strict: true,
+      exportsArgument: '__webpack_exports__',
+      temporaryProvidedExports: false
+    },
+    reasons: [ [ModuleReason] ],
+    _chunks: SortableSet(1) [Set] {
+      [Chunk],
+      _sortFn: [Function: sortById],
+      _lastActiveSortFn: null,
+      _cache: undefined,
+      _cacheOrderIndependent: undefined
+    },
+    id: './src/index.js',
+    index: 0,
+    index2: 2,
+    depth: 0,
+    issuer: null,
+    profile: undefined,
+    prefetched: false,
+    built: true,
+    used: null,
+    usedExports: null,
+    optimizationBailout: [],
+    _rewriteChunkInReasons: undefined,
+    useSourceMap: false,
+    _source: OriginalSource {
+      _value: "import srctFn from './srctest';\n" +
+        "import srcpage from '../page/srcpage';\n" +
+        "srctFn('ffffffffffffd');\n" +
+        "srcpage('ffffffffffffd');\n" +
+        "console.log('--index-page------009883njoddsrg543ghjsdg112111111111111111');",
+      _name: 'D:\\workplace\\webpack\\webpack-travel\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\workplace\\webpack\\webpack-travel\\src\\index.js'
+    },
+    request: 'D:\\workplace\\webpack\\webpack-travel\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+    userRequest: 'D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+    rawRequest: './src/index.js',
+    binary: false,
+    parser: Parser {
+      _pluginCompat: [SyncBailHook],
+      hooks: [Object],
+      options: {},
+      sourceType: 'auto',
+      scope: undefined,
+      state: undefined,
+      comments: undefined
+    },
+    generator: JavascriptGenerator {},
+    resource: 'D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+    matchResource: undefined,
+    loaders: [ [Object] ],
+    error: null,
+    _sourceSize: null,
+    _buildHash: 'c12ba7dc3b42a635b93dbc78d3c64190',
+    buildTimestamp: 1649211271882,
+    _cachedSources: Map(1) { 'javascript' => [Object] },
+    lineToLine: false,
+    _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [] },
+    _ast: null
+  },
+  NormalModule {
+    dependencies: [
+      [HarmonyCompatibilityDependency],
+      [HarmonyInitDependency],
+      [HarmonyExportHeaderDependency],
+      [HarmonyExportExpressionDependency]
+    ],
+    blocks: [],
+    variables: [],
+    type: 'javascript/auto',
+    context: 'D:\\workplace\\webpack\\webpack-travel\\src',
+    debugId: 1001,
+    hash: '1530b9899419f1f030014dcd72ba648a',
+    renderedHash: '1530b9899419f1f03001',
+    resolveOptions: {},
+    factoryMeta: {},
+    warnings: [],
+    errors: [],
+    buildMeta: { exportsType: 'namespace', providedExports: [Array] },
+    buildInfo: {
+      cacheable: true,
+      fileDependencies: [Set],
+      contextDependencies: Set(0) {},
+      assets: undefined,
+      assetsInfo: undefined,
+      strict: true,
+      exportsArgument: '__webpack_exports__',
+      temporaryProvidedExports: false
+    },
+    reasons: [ [ModuleReason], [ModuleReason] ],
+    _chunks: SortableSet(1) [Set] {
+      [Chunk],
+      _sortFn: [Function: sortById],
+      _lastActiveSortFn: null,
+      _cache: undefined,
+      _cacheOrderIndependent: undefined
+    },
+    id: './src/srctest.js',
+    index: 1,
+    index2: 0,
+    depth: 1,
+    issuer: NormalModule {
+      dependencies: [Array],
+      blocks: [],
+      variables: [],
+      type: 'javascript/auto',
+      context: 'D:\\workplace\\webpack\\webpack-travel\\src',
+      debugId: 1000,
+      hash: 'e3ba9754a36ad626f6eb7cd89387792b',
+      renderedHash: 'e3ba9754a36ad626f6eb',
+      resolveOptions: {},
+      factoryMeta: {},
+      warnings: [],
+      errors: [],
+      buildMeta: [Object],
+      buildInfo: [Object],
+      reasons: [Array],
+      _chunks: [SortableSet [Set]],
+      id: './src/index.js',
+      index: 0,
+      index2: 2,
+      depth: 0,
+      issuer: null,
+      profile: undefined,
+      prefetched: false,
+      built: true,
+      used: null,
+      usedExports: null,
+      optimizationBailout: [],
+      _rewriteChunkInReasons: undefined,
+      useSourceMap: false,
+      _source: [OriginalSource],
+      request: 'D:\\workplace\\webpack\\webpack-travel\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+      userRequest: 'D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+      rawRequest: './src/index.js',
+      binary: false,
+      parser: [Parser],
+      generator: JavascriptGenerator {},
+      resource: 'D:\\workplace\\webpack\\webpack-travel\\src\\index.js',
+      matchResource: undefined,
+      loaders: [Array],
+      error: null,
+      _sourceSize: null,
+      _buildHash: 'c12ba7dc3b42a635b93dbc78d3c64190',
+      buildTimestamp: 1649211271882,
+      _cachedSources: [Map],
+      lineToLine: false,
+      _lastSuccessfulBuildMeta: [Object],
+      _ast: null
+    },
+    profile: undefined,
+    prefetched: false,
+    built: true,
+    used: null,
+    usedExports: null,
+    optimizationBailout: [],
+    _rewriteChunkInReasons: undefined,
+    useSourceMap: false,
+    _source: OriginalSource {
+      _value: 'export default (params) => {\r\n' +
+        '  const dd = 1299;\r\n' +
+        '  // dd?.u;\r\n' +
+        "  console.log('i am srctest file------------------', params);\r\n" +
+        '};\r\n',
+      _name: 'D:\\workplace\\webpack\\webpack-travel\\src\\srctest.js'
+    },
+    request: 'D:\\workplace\\webpack\\webpack-travel\\src\\srctest.js',
+    userRequest: 'D:\\workplace\\webpack\\webpack-travel\\src\\srctest.js',
+    rawRequest: './srctest',
+    binary: false,
+    parser: Parser {
+      _pluginCompat: [SyncBailHook],
+      hooks: [Object],
+      options: {},
+      sourceType: 'auto',
+      scope: undefined,
+      state: undefined,
+      comments: undefined
+    },
+    generator: JavascriptGenerator {},
+    resource: 'D:\\workplace\\webpack\\webpack-travel\\src\\srctest.js',
+    matchResource: undefined,
+    loaders: [],
+    error: null,
+    _sourceSize: null,
+    _buildHash: '010a15529e691ed26d788c43d8997c94',
+    buildTimestamp: 1649211272539,
+    _cachedSources: Map(1) { 'javascript' => [Object] },
+    lineToLine: false,
+    _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [Array] },
+    _ast: null
+  }
+]
+Hash: 736bcd60c3894f4662f3
+Version: webpack 4.46.0
+Time: 734ms
+Built at: 2022/04/06 上午10:14:32
+         Asset      Size  Chunks             Chunk Names
+main.bundle.js  5.36 KiB    main  [emitted]  main
+Entrypoint main = main.bundle.js
+[./page/srcpage.js] 99 bytes {main} [built]
+[./src/index.js] 197 bytes {main} [built]
+[./src/srctest.js] 130 bytes {main} [built]

@@ -118,6 +118,7 @@
     "SECURITY.md"
   ],
   "scripts": {
+    "b": "node ./debug/run.js",
     "setup": "node ./setup/setup.js",
     "test": "node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest",
     "test:update-snapshots": "yarn jest -u",
