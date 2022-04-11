@@ -1,5 +1,8 @@
 /* eslint-disable prettier/prettier */
-export function foo(a, b) {
+ function foo(a, b) {
 	console.log(a + b);
 	console.log('mtest------------>>>>---------');
+	return a+b
 }
+
+exports.foo = foo

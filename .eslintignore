@@ -23,3 +23,5 @@ examples/**/*.js
 !examples/*/webpack.config.js
 
 dist
+
+/**/eslinttest

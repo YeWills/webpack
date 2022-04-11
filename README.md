@@ -51,5 +51,5 @@ $ npm run b
 关于webpack5 的源码 调试与分析的视频，[点击这里](https://www.bilibili.com/video/av462922583?from=search&seid=14121423744670771391&spm_id_from=333.337.0.0)
 
 
-## 作为《webpack再出发(誉)：module调试》 demo
-[《webpack再出发(誉)：module调试》]()
+## 作为《webpack再出发(田)：chunk及之后的调试》 demo
+[《webpack再出发(田)：chunk及之后的调试》]()
